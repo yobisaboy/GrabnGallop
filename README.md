@@ -1,1 +1,3 @@
 # GrabnGallop
+Developer: @yobisaboy
+
