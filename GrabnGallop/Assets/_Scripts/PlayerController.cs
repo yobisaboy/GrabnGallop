@@ -21,8 +21,6 @@ public class PlayerController : Subject
 
     [Header("Movements")]
     [SerializeField] float _speed;
-    [SerializeField] float _gravity = -30.0f;
-    [SerializeField] float _jumpHeight = 3.0f;
     [SerializeField] Vector3 _velocity;
     #endregion
 

@@ -5,6 +5,6 @@ using UnityEngine;
 public interface IObserver
 {
     public void OnPlayerNotify(PlayerEnums playerEnums);
-    public void OnNotify(EnemyEnums enemyEnums);
-    public void OnNotify(TargetEnums targetEnums);
+    public void OnEnemyNotify(EnemyEnums enemyEnums);
+    public void OnTargetNotify(TargetEnums targetEnums);
 }
