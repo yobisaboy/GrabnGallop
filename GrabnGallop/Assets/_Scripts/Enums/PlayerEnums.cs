@@ -7,5 +7,6 @@ public enum PlayerEnums
     Move,
     Gallop,
     Grab,
-    Withdraw
+    Withdraw,
+    Died
 }

@@ -8,7 +8,7 @@ using UnityEngine.Scripting.APIUpdating;
 //To make sure the object contains the required components
 [RequireComponent(typeof(CharacterController))]
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Subject
 {
     #region Private Fields
     GrabnGallop _inputs;
